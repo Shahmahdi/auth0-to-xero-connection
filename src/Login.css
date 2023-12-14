@@ -1,0 +1,57 @@
+.Login {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  height: 100vh;
+  margin: auto; }
+  .Login .main-container {
+    margin: auto; }
+  .Login .heading {
+    color: #27272E;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 38px; }
+  .Login .sub-heading {
+    color: #27272E;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px; }
+  .Login .form-container {
+    margin-top: 50px;
+    display: flex; }
+  .Login .form-holder {
+    margin-bottom: 28px; }
+  .Login .input-holder {
+    margin-top: 6px; }
+    .Login .input-holder input {
+      background: #EDF2F7;
+      padding: 12px;
+      border-radius: 6px; }
+    .Login .input-holder p {
+      margin-left: 0; }
+    .Login .input-holder fieldset {
+      border: none; }
+  .Login label {
+    color: #425466;
+    font-size: 12px;
+    font-weight: 500; }
+  .Login .checkbox {
+    margin-bottom: 28px;
+    font-size: 12px; }
+  .Login .login-btn {
+    width: 100%;
+    background: #2A59FE;
+    border-radius: 8px;
+    text-transform: capitalize; }
+  .Login .small-text {
+    font-size: 10px;
+    color: #718096;
+    text-align: center; }
+  .Login .logo-container {
+    position: absolute;
+    top: 15px;
+    left: 15px; }
+    @media (max-height: 700px) {
+      .Login .logo-container {
+        width: 180px; } }
